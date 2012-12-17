@@ -18,7 +18,7 @@ switch($action)
     }
     case 'ajouterUtilisateur':
     {
-        include("vues/gestionnaire/v_formAjoutUtilisateur.php");
+        include("vues/gestionnaire/v_formAjoutUtilisateur.gestionnaire.php");
         break;
     }
     case 'confirmerAjouterProduit':
